@@ -134,7 +134,7 @@ class _AboutScreenState extends State<AboutScreen> {
                           onPressed: () {
                             launchUrl(
                               Uri.parse(
-                                'https://github.com/Sangwan5688/BlackHole',
+                                'https://github.com/mohdjariullah/BlackHole',
                               ),
                               mode: LaunchMode.externalApplication,
                             );
@@ -172,7 +172,7 @@ class _AboutScreenState extends State<AboutScreen> {
                         onPressed: () {
                           launchUrl(
                             Uri.parse(
-                              'https://www.buymeacoffee.com/ankitsangwan',
+                              '',
                             ),
                             mode: LaunchMode.externalApplication,
                           );
@@ -197,7 +197,7 @@ class _AboutScreenState extends State<AboutScreen> {
                         ),
                         onPressed: () {
                           const String upiUrl =
-                              'upi://pay?pa=ankit.sangwan.5688@oksbi&pn=BlackHole&mc=5732&aid=uGICAgIDn98OpSw&tr=BCR2DN6T37O6DB3Q';
+                              '';
                           launchUrl(
                             Uri.parse(upiUrl),
                             mode: LaunchMode.externalApplication,
@@ -206,7 +206,7 @@ class _AboutScreenState extends State<AboutScreen> {
                         onLongPress: () {
                           copyToClipboard(
                             context: context,
-                            text: 'ankit.sangwan.5688@oksbi',
+                            text: '',
                             displayText: AppLocalizations.of(
                               context,
                             )!
